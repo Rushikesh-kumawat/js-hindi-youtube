@@ -33,3 +33,31 @@ const myfunction =function(){
 }
 
 console.log(typeof heros );     
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (primative), Heap (Non-premitive)
+
+let myyoutubename = "rushikumawat.com"
+
+let anothername = myyoutubename
+anothername = "chaiaurpoonam"
+
+console.log(myyoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email ="ponam@rushi.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
