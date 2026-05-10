@@ -5,17 +5,33 @@ const repoCount = 50
 
 console.log(`hello my name is ${name} and my repo count is ${repoCount}`);
 
-const gameName = new String('hiyteshtu')
+const gameName = new String('hiyteshtu_hc_com')
 
-console.log(gameName[0]);
-console.log(gameName.__proto__);
+// console.log(gameName[0]  );
+// console.log(gameName.__proto__);
 
 
-console.log(gameName.length);
-console.log(gameName.toUpperCase());
-console.log(gameName.charAt());
+// console.log(gameName.length);
+// console.log(gameName.toUpperCase());
+// console.log(gameName.charAt(2))
+// console.log(gameName.indexOf('t'))
 
-console.log(gameName.charAt(2))
-console.log(gameName.indexOf('u'))
+const newString = gameName.substring(0,4)
 
+// console.log(newString);
+
+const anotherString =gameName.slice(-8, 4)
+
+// console.log(anotherString);
+
+const newStringOne = "  hitesh  "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "http://hitesh.com/hitesh%20choudhary"
+console.log(url.replace('%20', '_'))
+
+console.log(url.includes('hitesh'))
+
+console.log(gameName.split ('_'));
 
